@@ -1,11 +1,9 @@
 <template>
     <div class="img-swiper">
         <swiper :options="swiperOption">
-
             <swiper-slide v-for="item in imgsInfo" :key="item.id">
                 <img class="swiper-img" :src="item.imgUrl" alt="">
             </swiper-slide>
-
             <div class="swiper-pagination"  slot="pagination"></div>
         </swiper>
     </div>
@@ -33,7 +31,7 @@ export default {
                 "link": "/detail"
             },{
                 "id": "2",
-                "imgUrl": "//fuss10.elemecdn.com/b/0a/5b1ab540506687c7b93e148704db1jpeg.jpeg?imageMogr/format/webp/",
+                "imgUrl": "////fuss10.elemecdn.com/b/0a/5b1ab540506687c7b93e148704db1jpeg.jpeg?imageMogr/format/webp/",
                 "link": "/detail"
             }]
         }
